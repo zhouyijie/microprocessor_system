@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Applications/Android Studio.app/Contents/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="/Users/alexrichardson/Downloads/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/gson-2.2.4_d0ce76b63ce905fbab3c5d385c8e1b8692010f19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alexrichardson/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-lambda/2.2.22/69c3a6197c0375570fddd12a8bedab138d5887d/aws-android-sdk-lambda-2.2.22.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="069c3a6197c0375570fddd12a8bedab138d5887d">
+        <dex dex="/Users/alexrichardson/Downloads/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/aws-android-sdk-lambda-2.2.22_4a5c864a95cc85deccfaedb40266c273bf288ece.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexrichardson/Downloads/BluetoothLeGatt/Application/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="07a4eb920331c4c6125be3252401c3a9c1782779">
+        <dex dex="/Users/alexrichardson/Downloads/BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_76afb0d26486f66e3c0df5092014b5c3d6ba463a/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alexrichardson/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-cognito/2.2.13/251ebccacaad6a5036952dc6b259a2aabba38356/aws-android-sdk-cognito-2.2.13.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="251ebccacaad6a5036952dc6b259a2aabba38356">
+        <dex dex="/Users/alexrichardson/Downloads/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/aws-android-sdk-cognito-2.2.13_ce4be1aa006ecf9ee6fe1a5f0e3180b2649cd0af.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alexrichardson/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-apigateway-core/2.2.22/72f77fe9cee0b67a3ce0732cd5b78d90b0f5076c/aws-android-sdk-apigateway-core-2.2.22.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="72f77fe9cee0b67a3ce0732cd5b78d90b0f5076c">
+        <dex dex="/Users/alexrichardson/Downloads/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/aws-android-sdk-apigateway-core-2.2.22_f4b249676585494112f96d32408fd192f93640c0.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexrichardson/Downloads/BluetoothLeGatt/Application/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/alexrichardson/Downloads/BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_ae03846085c287ed35b84661706ee07b546866d6/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alexrichardson/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-ddb/2.2.22/a1e0dd0d91d40d9e67342d3a8bd26f08edaa3549/aws-android-sdk-ddb-2.2.22.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a1e0dd0d91d40d9e67342d3a8bd26f08edaa3549">
+        <dex dex="/Users/alexrichardson/Downloads/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/aws-android-sdk-ddb-2.2.22_c8855463ca1afd17e04d38b1fd40ed7732436ebe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alexrichardson/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-s3/2.2.22/40fe82092e0ae3ca549b132a1e7e876807525176/aws-android-sdk-s3-2.2.22.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="40fe82092e0ae3ca549b132a1e7e876807525176">
+        <dex dex="/Users/alexrichardson/Downloads/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/aws-android-sdk-s3-2.2.22_677613b8eb42319ca119f76ec6da8f86c38fc6cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alexrichardson/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-core/2.2.22/c6789de00db9d1f93faec881fa0c1f5960fb8a15/aws-android-sdk-core-2.2.22.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c6789de00db9d1f93faec881fa0c1f5960fb8a15">
+        <dex dex="/Users/alexrichardson/Downloads/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/aws-android-sdk-core-2.2.22_c8ac38943b8276bd96f67604fc23fc8a94d0526e.jar" />
+    </item>
+
+</items>

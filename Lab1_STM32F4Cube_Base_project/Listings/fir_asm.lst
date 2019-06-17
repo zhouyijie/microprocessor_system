@@ -1,0 +1,108 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             text, CODE, READONLY
+    2 00000000                 EXPORT           fir_asm
+    3 00000000         
+    4 00000000         fir_asm
+    5 00000000 CB18            LDM              R3, {R3,R4}
+    6 00000002         ;VSTR.F32 S1, [R4]
+    7 00000002         ;VSTR.F32 S0, [R3]
+    8 00000002         loop1
+    9 00000002 F04F 0501       MOV              R5, #1      ;instantiates count
+                                                            er at 1 per loop
+   10 00000006 EE33 3A43       VSUB.F32         S6, S6, S6  ;set weight total 0
+                                                            
+   11 0000000A 4606            MOV              R6, R0
+   12 0000000C 4617            MOV              R7, R2
+   13 0000000E         
+   14 0000000E         loop2                                ;loop to do each wi
+                                                            ndow
+   15 0000000E         
+   16 0000000E EDD6 3A00       VLDR.F32         S7, [R6]    ;Loads input value 
+                                                            from register
+   17 00000012 ED97 4A00       VLDR.F32         S8, [R7]    ;Loads coeff value 
+                                                            from register 
+   18 00000016 D613            BVS              stop        ;prevents overflow 
+                                                            
+   19 00000018 F106 0604       ADD              R6,R6,#4    ;4byte offset input
+                                                            
+   20 0000001C F107 0704       ADD              R7,R7,#4    ;4byte offset bias
+   21 00000020 EE03 3A84       VMLA.F32         S6, S7, S8
+   22 00000024 F105 0501       ADD              R5, R5, #1  ;increments order b
+                                                            y 1 value 
+   23 00000028 42A5            CMP              R5,R4       ;is array 0
+   24 0000002A DDF0            BLE              loop2       ;branch to loop2
+   25 0000002C         ;end of loop 2 
+   26 0000002C ED81 3A00       VSTR.F32         S6, [R1]    ;store value to out
+                                                            put array 
+   27 00000030 F101 0104       ADD              R1,R1, #4   ;increment by 4byte
+                                                            s
+   28 00000034 F100 0004       ADD              R0,R0, #4
+   29 00000038 F1A3 0301       SUB              R3,R3,#1    ;decrements array b
+                                                            y 1 value
+   30 0000003C 2B00            CMP              R3,#0       ;is array 0
+   31 0000003E D1E0            BNE              loop1       ;branch to loop
+   32 00000040         stop
+   33 00000040 4770            BX               LR
+   34 00000042         
+   35 00000042                 END
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp --apcs=int
+erwork --depend=.\objects\fir_asm.d -o.\objects\fir_asm.o -I\\campus.mcgill.ca\
+EMF\ELE\aricha42\Desktop\Lab1_STM32F4Cube_Base_project\RTE -IC:\McGill\Software
+_Install\EDU\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include -IC:\McGill\Softwar
+e_Install\EDU\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\S
+T\STM32F4xx\Include --predefine="__UVISION_VERSION SETA 515" --predefine="_RTE_
+ SETA 1" --predefine="STM32F407xx SETA 1" --list=.\listings\fir_asm.lst fir_asm
+.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+fir_asm 00000000
+
+Symbol: fir_asm
+   Definitions
+      At line 4 in file fir_asm.s
+   Uses
+      At line 2 in file fir_asm.s
+Comment: fir_asm used once
+loop1 00000002
+
+Symbol: loop1
+   Definitions
+      At line 8 in file fir_asm.s
+   Uses
+      At line 31 in file fir_asm.s
+Comment: loop1 used once
+loop2 0000000E
+
+Symbol: loop2
+   Definitions
+      At line 14 in file fir_asm.s
+   Uses
+      At line 24 in file fir_asm.s
+Comment: loop2 used once
+stop 00000040
+
+Symbol: stop
+   Definitions
+      At line 32 in file fir_asm.s
+   Uses
+      At line 18 in file fir_asm.s
+Comment: stop used once
+text 00000000
+
+Symbol: text
+   Definitions
+      At line 1 in file fir_asm.s
+   Uses
+      None
+Comment: text unused
+5 symbols
+339 symbols in table

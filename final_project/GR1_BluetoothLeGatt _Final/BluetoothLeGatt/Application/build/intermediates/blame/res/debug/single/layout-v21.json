@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/alexrichardson/Downloads/BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/alexrichardson/.android/build-cache/01be23550abb73736dce6f513f702873c97819af/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/alexrichardson/Downloads/BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/alexrichardson/.android/build-cache/01be23550abb73736dce6f513f702873c97819af/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/alexrichardson/Downloads/BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/alexrichardson/.android/build-cache/01be23550abb73736dce6f513f702873c97819af/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/alexrichardson/Downloads/BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/alexrichardson/.android/build-cache/01be23550abb73736dce6f513f702873c97819af/output/res/layout-v21/notification_action.xml"
+    }
+]

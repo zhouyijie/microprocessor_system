@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/alexrichardson/Downloads/BluetoothLeGatt/Application/build/intermediates/res/merged/debug/menu/gatt_services.xml",
+        "source": "/Users/alexrichardson/Downloads/BluetoothLeGatt/Application/src/main/res/menu/gatt_services.xml"
+    },
+    {
+        "merged": "/Users/alexrichardson/Downloads/BluetoothLeGatt/Application/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/alexrichardson/Downloads/BluetoothLeGatt/Application/src/main/res/menu/main.xml"
+    }
+]

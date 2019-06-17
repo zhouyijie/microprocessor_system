@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/alexrichardson/Downloads/BluetoothLeGatt/Application/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/Users/alexrichardson/.android/build-cache/01be23550abb73736dce6f513f702873c97819af/output/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/alexrichardson/Downloads/BluetoothLeGatt/Application/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/Users/alexrichardson/.android/build-cache/01be23550abb73736dce6f513f702873c97819af/output/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/alexrichardson/Downloads/BluetoothLeGatt/Application/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/alexrichardson/.android/build-cache/01be23550abb73736dce6f513f702873c97819af/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/alexrichardson/Downloads/BluetoothLeGatt/Application/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/alexrichardson/.android/build-cache/01be23550abb73736dce6f513f702873c97819af/output/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/Users/alexrichardson/Downloads/BluetoothLeGatt/Application/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/Users/alexrichardson/.android/build-cache/01be23550abb73736dce6f513f702873c97819af/output/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/alexrichardson/Downloads/BluetoothLeGatt/Application/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Users/alexrichardson/.android/build-cache/01be23550abb73736dce6f513f702873c97819af/output/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/alexrichardson/Downloads/BluetoothLeGatt/Application/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/Users/alexrichardson/.android/build-cache/01be23550abb73736dce6f513f702873c97819af/output/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/alexrichardson/Downloads/BluetoothLeGatt/Application/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
+        "source": "/Users/alexrichardson/.android/build-cache/01be23550abb73736dce6f513f702873c97819af/output/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/alexrichardson/Downloads/BluetoothLeGatt/Application/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/Users/alexrichardson/.android/build-cache/01be23550abb73736dce6f513f702873c97819af/output/res/color-v23/abc_tint_switch_thumb.xml"
+    }
+]

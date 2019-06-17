@@ -1,0 +1,4 @@
+#Sun Apr 02 18:40:56 EDT 2017
+base.0=/Users/alexrichardson/Downloads/BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2
+renamed.0=classes.dex
+file.0=/Users/alexrichardson/Downloads/BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex

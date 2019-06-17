@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/alexrichardson/Downloads/BluetoothLeGatt/Application/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",
+        "source": "/Users/alexrichardson/Downloads/BluetoothLeGatt/Application/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/alexrichardson/Downloads/BluetoothLeGatt/Application/build/intermediates/res/merged/debug/drawable-hdpi/tile.9.png",
+        "source": "/Users/alexrichardson/Downloads/BluetoothLeGatt/Application/src/main/res/drawable-hdpi/tile.9.png"
+    }
+]
